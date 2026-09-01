@@ -1,0 +1,11 @@
+# Language detection rules
+
+*.htm linguist-vendored
+* text=auto
+docs/* linguist-vendored
+*.jpeg binary
+
+* text=auto eol=lf
+
+src/**/*.ts linguist-detectable
+# eof 44b13256
